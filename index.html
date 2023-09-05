@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>My Portfolio</title>
+    <style>
+        .page1 {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F8F0E5;
+            height: 100vh;
+            width: 100%;
+        }
+
+        .navbar {
+            background-color: #102C57;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color:  #194280;
+            color: rgb(255, 255, 255);
+        }
+
+        .content {
+            text-align: center;
+            padding: 100px;
+        }
+
+        @media (max-width: 600px) {
+            .navbar a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+        }
+        .page2{box-sizing: border-box}
+.containerx{
+    height: 100vh;
+    background-color: #ffffff;
+}
+.container1 {
+  width: 100%;
+  background-color: #ddd;
+  
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+.page3 {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F1F0E8;
+            height: 100vh;
+            width: 100%;
+        }
+
+        .page3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            justify-items: center;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #ADC4CE;
+            border: 1px solid #829aa5;
+            padding: 20px;
+            height: 400px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.1);
+            box-shadow: #102C57 10px 10px;
+        }
+
+        @media (max-width: 600px) {
+            .card-container {
+                grid-template-columns: repeat(auto-fill, minmax(100%, 0.5fr));
+                padding: 10px;
+            }
+            
+
+        }
+        
+        .footerpage {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            height: 100vh;
+        }
+
+        .footer {
+            background-color: #102C57;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .footer {
+                font-size: 14px;
+                
+            }
+        }
+        body, html {
+            margin: 0;
+            padding: 0;
+        }
+
+       
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+    
+        .contact-info {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .contact-info a {
+            text-decoration: none;
+            color: #fff;
+            transition: color 0.3s;
+        }
+
+        .contact-info a:hover {
+            color: #007BFF;
+        }
+
+        
+        @media (max-width: 768px) {
+            .contact-info {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
+.html {width: 90%; background-color: #81abbe;}
+.css {width: 90%; background-color: #EADBC8;}
+.js {width: 75%; background-color: #829aa5;}
+.Phyton {width: 85%; background-color:#EADBC8;}
+    </style>
+</head>
+<body>
+    <div class="page1" id="page1">
+    <div class="navbar">
+        <a href="#page1">About</a>
+        <a href="#page2">Skills</a>
+        <a href="#page3">Courses and Certificates</a>
+        <a href="#footer">Contact</a>
+    </div>
+
+    <div class="content">
+        <h1>About Me</h1>
+        <p style="font-size: 17px; line-height: 40px;">Hello, I'm <span style="color: #194280;"
+            >Gunel</span>, a dedicated computer science student with a keen interest in web development. My journey into the world of technology has been driven by curiosity and a desire to create meaningful digital experiences.
+
+            As I pursue my degree, I'm actively honing my skills in web development, focusing on both front-end and back-end technologies. I'm passionate about building user-friendly websites and staying updated with industry trends.
+            
+            In addition to coding, I'm an advocate for diversity in tech and enjoy collaborating on projects that challenge my problem-solving abilities.
+            
+            Beyond my academic pursuits, I'm an avid tech enthusiast who enjoys exploring new coding languages and attending hackathons. I believe in the transformative power of technology and am excited to contribute to its evolution.
+            
+            Let's connect and explore the digital world together. Feel free to reach out—I'm always up for a tech discussion or a coding adventure.
+            
+            </p>
+    </div>
+</div>
+<div class="page2" id="page2">
+    <div class="containerx">
+    <h1>My Skills</h1>
+
+<p>HTML</p>
+<div class="container1">
+  <div class="skills html">90%</div>
+</div>
+
+<p>CSS</p>
+<div class="container1">
+  <div class="skills css">80%</div>
+</div>
+
+<p>JavaScript</p>
+<div class="container1">
+  <div class="skills js">65%</div>
+</div>
+
+<p>Phyton</p>
+<div class="container1">
+  <div class="skills Phyton">60%</div>
+</div>
+</div>
+</div>
+<div class="page3" id="page3">
+    <div class="card">
+        <h2>Coders Azerbaijan</h2>
+        <p style="line-height: 35px; font-size: 20px;">I'm thrilled to have completed CS50 with Coders Azerbaijan, where our project earned top honors. I've gained valuable coding skills through this experience and I'm eager for more coding adventures!</p>
+    </div>
+    <div class="card">
+        <h2>Web Development Course 2023</h2>
+        <p style="line-height: 35px; font-size: 20px;">My journey through a Udemy web development course has been incredibly rewarding. I've gained a wealth of programming skills, from mastering HTML, CSS, and JavaScript to tackling advanced frameworks and real-world coding challenges. These skills have empowered me to create dynamic web applications .</p>
+    </div>
+    <div class="card">
+        <h2>UNEC Programming Olypiad 2023</h2>
+        <p style="line-height: 25px; font-size: 20px;">I had the privilege of participating in the UNEC Programming Olympiad 2023, an event that enriched my programming journey. I acquired new skills, faced exciting challenges, and proudly earned a participation certificate. </p>
+
+</div>
+
+</div>
+</div>
+<footer id="footer">
+    <div class="contact-info">
+        <div>
+            <h3>Phone Number</h3>
+            <p>+994-77-559-33-55</p>
+        </div>
+        <div>
+            <h3>Email</h3>
+            <p><a href="https://mail.google.com/mail/">gunelazizova2005@gmail.com</a></p>
+        </div>
+        <div>
+            <h3>GitHub</h3>
+            <p><a href="https://github.com/LittleSmile05" target="_blank">github.com/LittleSmile05</a></p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
+
+
